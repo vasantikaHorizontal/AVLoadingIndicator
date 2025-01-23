@@ -43,34 +43,34 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.vasantikaHorizontal'
             artifactId = 'AVLoadingIndicatorView'
-            version = '1.0.1'
+            version = '1.0.2'
 
             afterEvaluate {
                 from components.release
 
-                pom {
-                    name = 'AVLoadingIndicatorView'
-                    description = 'Loading indicators for Android'
-                    url = 'https://github.com/vasantikaHorizontal/AVLoadingIndicator'
-//                    licenses {
-//                        license {
-//                            name = 'The Apache License, Version 2.0'
-//                            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//                pom {
+//                    name = 'AVLoadingIndicatorView'
+//                    description = 'Loading indicators for Android'
+//                    url = 'https://github.com/vasantikaHorizontal/AVLoadingIndicator'
+////                    licenses {
+////                        license {
+////                            name = 'The Apache License, Version 2.0'
+////                            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+////                        }
+////                    }
+//                    developers {
+//                        developer {
+//                            id = 'vasantikaHorizontal'
+//                            name = 'Vasantika Sindhi'
+//                            email = 'vsindhi@horizontal.com'
 //                        }
 //                    }
-                    developers {
-                        developer {
-                            id = 'vasantikaHorizontal'
-                            name = 'Vasantika Sindhi'
-                            email = 'vsindhi@horizontal.com'
-                        }
-                    }
-//                    scm {
-//                        connection = 'scm:git:git://git@github.com:maitrungduc1410/AVLoadingIndicatorView.git'
-//                        developerConnection = 'scm:git:ssh://git@github.com:maitrungduc1410/AVLoadingIndicatorView.git'
-//                        url = 'https://github.com/maitrungduc1410/AVLoadingIndicatorView'
-//                    }
-                }
+////                    scm {
+////                        connection = 'scm:git:git://git@github.com:maitrungduc1410/AVLoadingIndicatorView.git'
+////                        developerConnection = 'scm:git:ssh://git@github.com:maitrungduc1410/AVLoadingIndicatorView.git'
+////                        url = 'https://github.com/maitrungduc1410/AVLoadingIndicatorView'
+////                    }
+//                }
             }
         }
     }
@@ -89,9 +89,9 @@ publishing {
     }
 }
 
-signing {
-    sign publishing.publications.release
-}
+//signing {
+//    sign publishing.publications.release
+//}
 
 dependencies {
 
